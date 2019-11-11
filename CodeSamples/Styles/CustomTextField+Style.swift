@@ -11,7 +11,7 @@ import UIKit
 extension CustomTextField {
     
     //User selects the text field and defines it's style name and it's added here
-    static func inputStyle()-> CustomTextField{ //suffix sunulabilir default, ya da prefix style
+    static func inputStyle()-> CustomTextField{ 
         let textField = CustomTextField()
         textField.layer.borderColor = UIColor.gray.cgColor
         textField.layer.borderWidth =  1
