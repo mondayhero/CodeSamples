@@ -11,7 +11,7 @@ import UIKit
 extension CustomButton {
     
     //User selects the button and defines it's style name and it's added here
-    static func primaryButton()-> CustomButton{ //suffix sunulabilir default, ya da prefix style
+    static func primaryButton()-> CustomButton{
         let button = CustomButton()
         button.setTitleColor(UIColor.white, for: .normal)
         button.contentHorizontalAlignment = .left
